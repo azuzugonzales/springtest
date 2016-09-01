@@ -16,13 +16,13 @@
   </properties>
 
   <dependencies>
-  <!--  &lt;!&ndash; Spring &ndash;&gt;
+    <!-- Spring -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
       <version>${org.springframework-version}</version>
       <exclusions>
-        &lt;!&ndash; Exclude Commons Logging in favor of SLF4j &ndash;&gt;
+        <!-- Exclude Commons Logging in favor of SLF4j -->
         <exclusion>
           <groupId>commons-logging</groupId>
           <artifactId>commons-logging</artifactId>
@@ -42,7 +42,7 @@
       <version>${org.springframework-version}</version>
     </dependency>
 
-    &lt;!&ndash; Hibernate &ndash;&gt;
+    <!-- Hibernate -->
     <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
@@ -54,28 +54,29 @@
       <version>${hibernate.version}</version>
     </dependency>
 
-    &lt;!&ndash; Apache Commons DBCP &ndash;&gt;
+    <!-- Apache Commons DBCP -->
     <dependency>
       <groupId>commons-dbcp</groupId>
       <artifactId>commons-dbcp</artifactId>
       <version>1.4</version>
     </dependency>
 
-    &lt;!&ndash; Spring ORM &ndash;&gt;
+    <!-- Spring ORM -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-orm</artifactId>
       <version>${org.springframework-version}</version>
     </dependency>
 
-    &lt;!&ndash; AspectJ &ndash;&gt;
+    <!-- AspectJ -->
     <dependency>
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjrt</artifactId>
       <version>${org.aspectj-version}</version>
     </dependency>
 
-    &lt;!&ndash; Logging &ndash;&gt;
+
+     <!-- Logging -->
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
@@ -113,7 +114,7 @@
       <scope>runtime</scope>
     </dependency>
 
-    &lt;!&ndash; @Inject &ndash;&gt;
+     <!-- @Inject -->
     <dependency>
       <groupId>javax.inject</groupId>
       <artifactId>javax.inject</artifactId>
@@ -121,7 +122,7 @@
       <scope>provided</scope>
     </dependency>
 
-    &lt;!&ndash; Servlet &ndash;&gt;
+     <!-- Servlet -->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>servlet-api</artifactId>
@@ -139,10 +140,9 @@
       <groupId>jstl</groupId>
       <artifactId>jstl</artifactId>
       <version>1.2</version>
-    </dependency>-->
+    </dependency>
 
-
-    <!-- Test -->
+     <!-- Test -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
